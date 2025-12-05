@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://smartbillparser.de/</loc>
-        <lastmod>2025-11-05</lastmod>
+        <lastmod>2025-12-03</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -14,13 +14,13 @@
     </url>
     <url>
         <loc>https://smartbillparser.de/#pricing</loc>
-        <lastmod>2025-11-05</lastmod>
+        <lastmod>2025-12-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>https://smartbillparser.de/#faq</loc>
-        <lastmod>2025-11-05</lastmod>
+        <lastmod>2025-12-03</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
@@ -44,7 +44,7 @@
     </url>
   <url>
     <loc>https://smartbillparser.de/blog</loc>
-    <lastmod>2025-11-05</lastmod>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -63,6 +63,18 @@
   <url>
     <loc>https://smartbillparser.de/blog/konforme-e-rechnungen-erstellen</loc>
     <lastmod>2025-11-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://smartbillparser.de/blog/was-ist-smartbillparser</loc>
+    <lastmod>2025-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    </url>
+  <url>
+    <loc>https://smartbillparser.de/blog/zugferd-pflichtfelder-bt</loc>
+    <lastmod>2025-12-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

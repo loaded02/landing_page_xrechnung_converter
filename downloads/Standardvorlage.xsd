@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+   <xs:element name="invoiceData" type="invoiceDataXml"/>
+   <xs:complexType name="discountXml">
+      <xs:sequence>
+         <xs:element minOccurs="0" name="discountAmount" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="discountTaxCategory" type="taxCategoryCode"/>
+         <xs:element minOccurs="0" name="discountTaxRate" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="discountReason" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="invoiceDataXml">
+      <xs:sequence>
+         <xs:element minOccurs="0" name="invoiceNumber" type="xs:string"/>
+         <xs:element minOccurs="0" name="invoiceDate" type="xs:string"/>
+         <xs:element minOccurs="0" name="documentTypeCode" type="documentTypeCode"/>
+         <xs:element minOccurs="0" name="currency" type="currencyCode"/>
+         <xs:element minOccurs="0" name="dueDate" type="xs:string"/>
+         <xs:element minOccurs="0" name="leitwegId" type="xs:string"/>
+         <xs:element minOccurs="0" name="purchaseOrderReference" type="xs:string"/>
+         <xs:element minOccurs="0" name="deliveryNoteReference" type="xs:string"/>
+         <xs:element minOccurs="0" name="paymentTerms" type="xs:string"/>
+         <xs:element minOccurs="0" name="deliveryDate" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerName" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerVatId" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerTaxNumber" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerElectronicAddress" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerStreet" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerPostalCode" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerCity" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerCountryCode" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerContactName" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerContactPhone" type="xs:string"/>
+         <xs:element minOccurs="0" name="sellerContactEmail" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerName" type="xs:string"/>
+         <xs:element minOccurs="0" name="customerId" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerElectronicAddress" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerStreet" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerPostalCode" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerCity" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerCountryCode" type="xs:string"/>
+         <xs:element minOccurs="0" name="buyerContactEmail" type="xs:string"/>
+         <xs:element minOccurs="0" name="discounts">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element maxOccurs="unbounded"
+                              minOccurs="0"
+                              name="discount"
+                              type="discountXml"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:element minOccurs="0" name="surcharges">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element maxOccurs="unbounded"
+                              minOccurs="0"
+                              name="surcharge"
+                              type="surchargeXml"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+         <xs:element minOccurs="0" name="paymentMethod" type="paymentMethodCode"/>
+         <xs:element minOccurs="0" name="iban" type="xs:string"/>
+         <xs:element minOccurs="0" name="bic" type="xs:string"/>
+         <xs:element minOccurs="0" name="accountHolder" type="xs:string"/>
+         <xs:element minOccurs="0" name="lineItems">
+            <xs:complexType>
+               <xs:sequence>
+                  <xs:element maxOccurs="unbounded"
+                              minOccurs="0"
+                              name="lineItem"
+                              type="lineItemXml"/>
+               </xs:sequence>
+            </xs:complexType>
+         </xs:element>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="surchargeXml">
+      <xs:sequence>
+         <xs:element minOccurs="0" name="surchargeAmount" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="surchargeTaxCategory" type="taxCategoryCode"/>
+         <xs:element minOccurs="0" name="surchargeTaxRate" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="surchargeReason" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:complexType name="lineItemXml">
+      <xs:sequence>
+         <xs:element minOccurs="0" name="positionNumber" type="xs:string"/>
+         <xs:element minOccurs="0" name="quantity" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="unit" type="unitCode"/>
+         <xs:element minOccurs="0" name="discountAmount" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="discountReason" type="xs:string"/>
+         <xs:element minOccurs="0" name="surchargeAmount" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="surchargeReason" type="xs:string"/>
+         <xs:element minOccurs="0" name="netAmountPerUnit" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="taxCategory" type="taxCategoryCode"/>
+         <xs:element minOccurs="0" name="taxRate" type="xs:decimal"/>
+         <xs:element minOccurs="0" name="name" type="xs:string"/>
+         <xs:element minOccurs="0" name="description" type="xs:string"/>
+      </xs:sequence>
+   </xs:complexType>
+   <xs:simpleType name="taxCategoryCode">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="S"/>
+         <xs:enumeration value="Z"/>
+         <xs:enumeration value="E"/>
+         <xs:enumeration value="AE"/>
+         <xs:enumeration value="K"/>
+         <xs:enumeration value="G"/>
+         <xs:enumeration value="O"/>
+         <xs:enumeration value="L"/>
+         <xs:enumeration value="M"/>
+         <xs:enumeration value="AA"/>
+         <xs:enumeration value="H"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="documentTypeCode">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="380"/>
+         <xs:enumeration value="381"/>
+         <xs:enumeration value="383"/>
+         <xs:enumeration value="384"/>
+         <xs:enumeration value="386"/>
+         <xs:enumeration value="389"/>
+         <xs:enumeration value="326"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="currencyCode">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="AED"/>
+         <xs:enumeration value="AUD"/>
+         <xs:enumeration value="BGN"/>
+         <xs:enumeration value="BRL"/>
+         <xs:enumeration value="CAD"/>
+         <xs:enumeration value="CHF"/>
+         <xs:enumeration value="CNY"/>
+         <xs:enumeration value="CZK"/>
+         <xs:enumeration value="DKK"/>
+         <xs:enumeration value="EUR"/>
+         <xs:enumeration value="GBP"/>
+         <xs:enumeration value="HKD"/>
+         <xs:enumeration value="HUF"/>
+         <xs:enumeration value="IDR"/>
+         <xs:enumeration value="ILS"/>
+         <xs:enumeration value="INR"/>
+         <xs:enumeration value="ISK"/>
+         <xs:enumeration value="JPY"/>
+         <xs:enumeration value="KRW"/>
+         <xs:enumeration value="MXN"/>
+         <xs:enumeration value="MYR"/>
+         <xs:enumeration value="NOK"/>
+         <xs:enumeration value="NZD"/>
+         <xs:enumeration value="PHP"/>
+         <xs:enumeration value="PLN"/>
+         <xs:enumeration value="RON"/>
+         <xs:enumeration value="SEK"/>
+         <xs:enumeration value="SGD"/>
+         <xs:enumeration value="THB"/>
+         <xs:enumeration value="TRY"/>
+         <xs:enumeration value="USD"/>
+         <xs:enumeration value="ZAR"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="paymentMethodCode">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="10"/>
+         <xs:enumeration value="20"/>
+         <xs:enumeration value="30"/>
+         <xs:enumeration value="31"/>
+         <xs:enumeration value="42"/>
+         <xs:enumeration value="48"/>
+         <xs:enumeration value="49"/>
+         <xs:enumeration value="58"/>
+         <xs:enumeration value="59"/>
+      </xs:restriction>
+   </xs:simpleType>
+   <xs:simpleType name="unitCode">
+      <xs:restriction base="xs:string">
+         <xs:enumeration value="C62"/>
+         <xs:enumeration value="H87"/>
+         <xs:enumeration value="PCE"/>
+         <xs:enumeration value="HUR"/>
+         <xs:enumeration value="KGM"/>
+         <xs:enumeration value="LTR"/>
+         <xs:enumeration value="MTR"/>
+         <xs:enumeration value="MTK"/>
+         <xs:enumeration value="MTQ"/>
+         <xs:enumeration value="DAY"/>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:schema>
