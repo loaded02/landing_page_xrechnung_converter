@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./smartbillparser_icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary Meta Tags -->
+    <title>SmartBillParser - PDF in E-Rechnung konvertieren</title>
+    <meta name="title" content="SmartBillParser - PDF in E-Rechnung konvertieren" />
+    <meta name="description" content="SmartBillParser - PDF in E-Rechnung konvertieren. E-Rechnungen offline erstellen. PDF-Rechnungen in E-Rechnungen konvertieren. Unterstützt XRechnung, ZUGFeRD & Factur-X. 100% offline, sicher und DSGVO-konform." />
+    <meta name="keywords" content="SmartBillParser, XRechnung, E-Rechnung, eRechnung, ZUGFeRD, Factur-X, PDF zu XRechnung, E-Rechnungspflicht, elektronische Rechnung">
+    <meta name="author" content="Hilberg IT Beratung" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Theme Color -->
+    <meta name="theme-color" content="#ffffff" />
+
+    <!-- Cookie Consent Banner -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+    <script>
+      function startGoogleAnalytics() {
+        // Google tag (gtag.js)
+        var gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-FS2Z5ZMP9V';
+        document.head.appendChild(gtagScript);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-FS2Z5ZMP9V');
+      }
+
+      window.addEventListener("load", function(){
+        window.cookieconsent.initialise({
+          "palette": {
+            "popup": { "background": "#000" },
+            "button": { "background": "#f1d600" }
+          },
+          "theme": "classic",
+          "position": "bottom-right",
+          "content": {
+            "message": "Diese Webseite verwendet Cookies, um die Nutzererfahrung zu verbessern und die Nutzung der Website zu analysieren.",
+            "dismiss": "Got it!",
+            "allow": "Cookies erlauben",
+            "deny": "Ablehnen",
+            "link": "Mehr erfahren",
+            "href": "/privacy"
+          },
+          onStatusChange: function(status) {
+            if (this.hasConsented()) {
+              startGoogleAnalytics();
+            }
+          }
+        })
+      });
+    </script>
+    <script type="module" crossorigin src="./assets/index-DV6XNb3O.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DextdY7K.css">
+  </head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FS2Z5ZMP9V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FS2Z5ZMP9V');
+  </script>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
