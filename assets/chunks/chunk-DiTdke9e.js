@@ -1,1 +1,0 @@
-import{r as s,j as a}from"./chunk-2SPasgE1.js";const c=({user:t="info",domain:e="hilberg-it.de",className:i=""})=>{const[r,o]=s.useState("");return s.useEffect(()=>{const n=setTimeout(()=>{o(`${t}@${e}`)},100);return()=>clearTimeout(n)},[t,e]),r?a.jsx("a",{href:`mailto:${r}`,className:i,children:r}):a.jsxs("span",{className:i,children:[t," [at] ",e]})};export{c as E};
