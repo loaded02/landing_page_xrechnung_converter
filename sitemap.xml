@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://smartbillparser.de/</loc>
-        <lastmod>2026-02-06</lastmod>
+        <lastmod>2026-03-25</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
@@ -32,7 +32,7 @@
     </url>
   <url>
     <loc>https://smartbillparser.de/blog</loc>
-    <lastmod>2025-12-03</lastmod>
+    <lastmod>2026-03-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
