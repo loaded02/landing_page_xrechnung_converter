@@ -1,0 +1,304 @@
+{
+  "_chunk-2SPasgE1.js": {
+    "file": "assets/chunks/chunk-2SPasgE1.js",
+    "name": "Loading",
+    "imports": [
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ],
+    "assets": [
+      "assets/static/smartbillparser_icon.uJQzPHSX.png"
+    ]
+  },
+  "_chunk-DZJIpf7p.js": {
+    "file": "assets/chunks/chunk-DZJIpf7p.js",
+    "name": "index",
+    "imports": [
+      "_chunk-2SPasgE1.js"
+    ]
+  },
+  "_chunk-DiTdke9e.js": {
+    "file": "assets/chunks/chunk-DiTdke9e.js",
+    "name": "EmailDisplay",
+    "imports": [
+      "_chunk-2SPasgE1.js"
+    ]
+  },
+  "_chunk-tuBEHo31.js": {
+    "file": "assets/chunks/chunk-tuBEHo31.js",
+    "name": "renderPageClient"
+  },
+  "_pages_Layout-69d9ce51.H2omG36N.css": {
+    "file": "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+    "src": "_pages_Layout-69d9ce51.H2omG36N.css"
+  },
+  "_pages_tailwind-65fb2459.BVfbyE7X.css": {
+    "file": "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css",
+    "src": "_pages_tailwind-65fb2459.BVfbyE7X.css"
+  },
+  "assets/Screencast_SBP_2.mp4": {
+    "file": "assets/static/Screencast_SBP_2.DINmjYbo.mp4",
+    "src": "assets/Screencast_SBP_2.mp4"
+  },
+  "assets/Standardvorlage.xsd": {
+    "file": "assets/static/Standardvorlage.DcRB64q1.xsd",
+    "src": "assets/Standardvorlage.xsd"
+  },
+  "assets/smartbillparser_icon.png": {
+    "file": "assets/static/smartbillparser_icon.uJQzPHSX.png",
+    "src": "assets/smartbillparser_icon.png"
+  },
+  "assets/stu_2020-09-18 112006_compressed.jpg": {
+    "file": "assets/static/stu_2020-09-18-112006_compressed.XSy3pdBc.jpg",
+    "src": "assets/stu_2020-09-18 112006_compressed.jpg"
+  },
+  "node_modules/vike/dist/client/runtime-client-routing/entry.js": {
+    "file": "assets/entries/entry-client-routing.kJtPTwmY.js",
+    "name": "entries/entry-client-routing",
+    "src": "node_modules/vike/dist/client/runtime-client-routing/entry.js",
+    "isEntry": true,
+    "imports": [
+      "_chunk-tuBEHo31.js"
+    ],
+    "dynamicImports": [
+      "virtual:vike:page-entry:client:/pages/_error",
+      "virtual:vike:page-entry:client:/pages/blog",
+      "virtual:vike:page-entry:client:/pages/blog/e-rechnungspflicht-2025-deutschland",
+      "virtual:vike:page-entry:client:/pages/blog/konforme-e-rechnungen-erstellen",
+      "virtual:vike:page-entry:client:/pages/blog/papierrechnungen-kleinunternehmen-zulaessig",
+      "virtual:vike:page-entry:client:/pages/blog/was-ist-smartbillparser",
+      "virtual:vike:page-entry:client:/pages/blog/xrechnung-vs-zugferd",
+      "virtual:vike:page-entry:client:/pages/blog/zugferd-pflichtfelder-bt",
+      "virtual:vike:page-entry:client:/pages/download",
+      "virtual:vike:page-entry:client:/pages/imprint",
+      "virtual:vike:page-entry:client:/pages/index",
+      "virtual:vike:page-entry:client:/pages/privacy",
+      "virtual:vike:page-entry:client:/pages/success",
+      "virtual:vike:page-entry:client:/pages/termsOfUse"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/_error": {
+    "file": "assets/entries/pages_error.Bg2sQ3Vj.js",
+    "name": "entries/pages/_error",
+    "src": "virtual:vike:page-entry:client:/pages/_error",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog": {
+    "file": "assets/entries/pages_blog.Dc2LoBPf.js",
+    "name": "entries/pages/blog",
+    "src": "virtual:vike:page-entry:client:/pages/blog",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/e-rechnungspflicht-2025-deutschland": {
+    "file": "assets/entries/pages_blog_e-rechnungspflicht-2025-deutschland.B11yhbUs.js",
+    "name": "entries/pages/blog/e-rechnungspflicht-2025-deutschland",
+    "src": "virtual:vike:page-entry:client:/pages/blog/e-rechnungspflicht-2025-deutschland",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/konforme-e-rechnungen-erstellen": {
+    "file": "assets/entries/pages_blog_konforme-e-rechnungen-erstellen.CdoqTFB-.js",
+    "name": "entries/pages/blog/konforme-e-rechnungen-erstellen",
+    "src": "virtual:vike:page-entry:client:/pages/blog/konforme-e-rechnungen-erstellen",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/papierrechnungen-kleinunternehmen-zulaessig": {
+    "file": "assets/entries/pages_blog_papierrechnungen-kleinunternehmen-zulaessig.dTxyhB5_.js",
+    "name": "entries/pages/blog/papierrechnungen-kleinunternehmen-zulaessig",
+    "src": "virtual:vike:page-entry:client:/pages/blog/papierrechnungen-kleinunternehmen-zulaessig",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/was-ist-smartbillparser": {
+    "file": "assets/entries/pages_blog_was-ist-smartbillparser.DGaLOtdz.js",
+    "name": "entries/pages/blog/was-ist-smartbillparser",
+    "src": "virtual:vike:page-entry:client:/pages/blog/was-ist-smartbillparser",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/xrechnung-vs-zugferd": {
+    "file": "assets/entries/pages_blog_xrechnung-vs-zugferd.B3Ia1aWJ.js",
+    "name": "entries/pages/blog/xrechnung-vs-zugferd",
+    "src": "virtual:vike:page-entry:client:/pages/blog/xrechnung-vs-zugferd",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/blog/zugferd-pflichtfelder-bt": {
+    "file": "assets/entries/pages_blog_zugferd-pflichtfelder-bt.Duwq6e4N.js",
+    "name": "entries/pages/blog/zugferd-pflichtfelder-bt",
+    "src": "virtual:vike:page-entry:client:/pages/blog/zugferd-pflichtfelder-bt",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/download": {
+    "file": "assets/entries/pages_download.BRjA-pi8.js",
+    "name": "entries/pages/download",
+    "src": "virtual:vike:page-entry:client:/pages/download",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DZJIpf7p.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/imprint": {
+    "file": "assets/entries/pages_imprint.DIFvIP__.js",
+    "name": "entries/pages/imprint",
+    "src": "virtual:vike:page-entry:client:/pages/imprint",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DiTdke9e.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/index": {
+    "file": "assets/entries/pages_index.DoEWT65K.js",
+    "name": "entries/pages/index",
+    "src": "virtual:vike:page-entry:client:/pages/index",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DZJIpf7p.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ],
+    "assets": [
+      "assets/static/Screencast_SBP_2.DINmjYbo.mp4",
+      "assets/static/Standardvorlage.DcRB64q1.xsd",
+      "assets/static/stu_2020-09-18-112006_compressed.XSy3pdBc.jpg"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/privacy": {
+    "file": "assets/entries/pages_privacy.B61Amp5t.js",
+    "name": "entries/pages/privacy",
+    "src": "virtual:vike:page-entry:client:/pages/privacy",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DiTdke9e.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/success": {
+    "file": "assets/entries/pages_success.Or7hFTSx.js",
+    "name": "entries/pages/success",
+    "src": "virtual:vike:page-entry:client:/pages/success",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DZJIpf7p.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  },
+  "virtual:vike:page-entry:client:/pages/termsOfUse": {
+    "file": "assets/entries/pages_termsOfUse.BkTC8KKT.js",
+    "name": "entries/pages/termsOfUse",
+    "src": "virtual:vike:page-entry:client:/pages/termsOfUse",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_chunk-2SPasgE1.js",
+      "_chunk-DiTdke9e.js",
+      "_chunk-tuBEHo31.js"
+    ],
+    "css": [
+      "assets/static/pages_Layout-69d9ce51.H2omG36N.css",
+      "assets/static/pages_tailwind-65fb2459.BVfbyE7X.css"
+    ]
+  }
+}
