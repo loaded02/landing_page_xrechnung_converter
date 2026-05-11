@@ -28,15 +28,22 @@
                 "popup": { "background": "#000" },
                 "button": { "background": "#f1d600" }
               },
+              "type": "opt-in",
               "theme": "classic",
               "position": "bottom-right",
               "content": {
                 "message": "Diese Webseite verwendet Cookies, um die Nutzererfahrung zu verbessern und die Nutzung der Website zu analysieren.",
                 "dismiss": "Got it!",
-                "allow": "Cookies erlauben",
+                "allow": "Zustimmen",
                 "deny": "Ablehnen",
                 "link": "Mehr erfahren",
-                "href": "/privacy"
+                "href": "/privacy",
+                "target": "_blank"
+              },
+              onInitialise: function(status) {
+                if (this.hasConsented()) {
+                  startGoogleAnalytics();
+                }
               },
               onStatusChange: function(status) {
                 if (this.hasConsented()) {
@@ -59,7 +66,7 @@
         
         <script id="vike_pageContext" type="application/json">{"pageId":"\\/pages\\/termsOfUse","routeParams":{}}</script>
         <script id="vike_globalContext" type="application/json">{}</script>
-        <script src="/assets/entries/entry-client-routing.cviYsnGm.js" type="module" async></script>
+        <script src="/assets/entries/entry-client-routing.DxMzjgYl.js" type="module" async></script>
         <link rel="modulepreload" href="/assets/entries/pages_termsOfUse.BkTC8KKT.js" as="script" type="text/javascript">
         <link rel="modulepreload" href="/assets/chunks/chunk-2SPasgE1.js" as="script" type="text/javascript">
         <link rel="modulepreload" href="/assets/chunks/chunk-tuBEHo31.js" as="script" type="text/javascript">
