@@ -2,15 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
         <loc>https://smartbillparser.de/</loc>
-        <lastmod>2026-08-22</lastmod>
+        <lastmod>2026-08-28</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
         <loc>https://smartbillparser.de/download</loc>
-        <lastmod>2026-08-22</lastmod>
+        <lastmod>2026-08-28</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.4</priority>
+    </url>
+    <url>
+        <loc>https://smartbillparser.de/validator</loc>
+        <lastmod>2026-08-28</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
     </url>
     <url>
         <loc>https://smartbillparser.de/termsOfUse</loc>
@@ -32,9 +38,15 @@
     </url>
   <url>
     <loc>https://smartbillparser.de/blog</loc>
-    <lastmod>2026-03-25</lastmod>
+    <lastmod>2026-08-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartbillparser.de/blog/zugferd-validator-eingangs-rechnungen</loc>
+    <lastmod>2026-08-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://smartbillparser.de/blog/e-rechnungspflicht-2025-deutschland</loc>
